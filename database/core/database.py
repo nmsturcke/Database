@@ -32,19 +32,12 @@ class DataBase():
         Correctly formats an item to input into a SQLite command
         
         :param item: The item you want to format
-        :type itemm: Union[dict, list, str, int]
+        :type item: Union[dict, list, str, int]
         :returns: str
         """
 
         rem: str= lambda i: i.replace("'", "‘")
 
-        # if isinstance(item, int):
-        #     return str(item)
-
-        # if isinstance(item, int) or isinstance(item, str):
-        #     return f"'{rem(str(item))}'"
-        
-        # else:
         return f"'{rem(json.dumps(item))}'"
         
     def _formatres(self, res: tuple) -> dict:
