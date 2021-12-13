@@ -1,6 +1,6 @@
 # Database
 
-Want to use a SQLite database but keep on forgetting all commands? \
+Want to use a SQLite database but keep on forgetting all commands? 
 > **I present you with the solution!** \
 > This is a database wrapper for SQLite, add the file to your repository and import it in your main file (with `from .database import DataBase`). Feel free to use it in all your projects
 
