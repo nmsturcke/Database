@@ -147,7 +147,7 @@ class DataBase():
         t = "SELECT * FROM main"
 
         self._c.execute(t)
-        fetch = self._c.fetchone()
+        fetch = self._c.fetchall()
 
         if not fetch:
             return None
