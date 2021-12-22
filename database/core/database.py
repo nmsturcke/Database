@@ -167,13 +167,7 @@ class DataBase():
         :returns None
         """
 
-        t = "UPDATE main SET "
-
-        for dkey, dvalue in data.items():
-            t += f"{dkey}={self._format(dvalue)}"
-
-        t += f"WHERE {self._formatadd(query)}"
-        
+        t = "UPDATE main SET " + ", ".join(f"{dkey}={self._format(dvalue)}" for dkey, dvalue in data.items()) + f" WHERE {self._formatadd(query)}"
         self._c.execute(t)
         self._conn.commit()
 
