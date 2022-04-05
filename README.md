@@ -6,11 +6,11 @@ Want to use a SQLite database but keep on forgetting all commands?
 
 This class incorporates the use of asynchronus and non-asynchronus functions, so you can choose which one you prefer depending on the situation.
 
-# How to use it?
+## How to use it?
 
 > Initiate the `DataBase` class, enter the path to it along with the columns you'd like the database to have.
 
-# Asynchronus functions
+### Asynchronus functions
 > `1.` **async create_table()** - Creates the table, this is called automatically at the initialization of each function \
 > `2.` **async find_one()** - Find an object in the database, you must enter a query that the items must have to be selected \
 > `3.` **async find_all()** - Select all objects in the database \
@@ -18,7 +18,7 @@ This class incorporates the use of asynchronus and non-asynchronus functions, so
 > `5.` **async insert()** - Insert an object into the database \
 > `6.` **async delete()** - Delete an object from the database, you must pass a query that items must have in order to be deleted
 
-# Non-asynchronus functions
+### Non-asynchronus functions
 > `1.` **na_create_table()** - Creates the table, this is called automatically at the initialization of each function \
 > `2.` **na_find_one()** - Find an object in the database, you must enter a query that the items must have to be selected \
 > `3.` **na_find_all()** - Select all objects in the database \
@@ -26,7 +26,7 @@ This class incorporates the use of asynchronus and non-asynchronus functions, so
 > `5.` **na_insert()** - Insert an object into the database \
 > `6.` **na_delete()** - Delete an object from the database, you must pass a query that items must have in order to be deleted
 
-# Disclaimer
+## Disclaimer
 
 I cannot assure this works for you, if you do find any issues or have any requests, please create an Issue and I'll be more than happy to answer!
 
