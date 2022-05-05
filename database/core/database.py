@@ -1,5 +1,9 @@
 #encoding utf-8
 
+# (c) Nickyux 2021 - current 
+# (GitHub) @nmsturcke
+# (Repository) https://github.com/nmsturcke/Database 
+
 import sqlite3, json, os
 from typing import Union
 
