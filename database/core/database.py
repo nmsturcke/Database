@@ -12,7 +12,7 @@ class DataBase():
         """
         Class DataBase
         
-        Sqlite rapper for a database object, the best way to connect to your database without having to remember all those tedious SQLite commands!
+        Sqlite wrapper for a database object, the best way to connect to your database without having to remember all those tedious SQLite commands!
         
         :param path: The path to your database
         :type path: str
